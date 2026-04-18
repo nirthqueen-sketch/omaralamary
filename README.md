@@ -1,2 +1,19 @@
-# omaralamary
-HearMe Kids is a fun educational web app for children to practice listening, pronunciation, spelling, and word matching. It uses simple games, sounds, and visuals to help kids learn new words in an interactive and stress-free way using HTML, CSS, and JavaScript.
+# EduHub MVP
+
+واجهة أولية (MVP) لمنصة **EduHub** التعليمية.
+
+## الموجود حاليًا
+- Landing page عربية تعرض فكرة المنصة.
+- عرض المميزات الأساسية: نظام الأماكن، المتابعة، التحفيز، AI Tutor، الإشعارات، الشات.
+- ديمو بسيط لنظام النقاط و الـ streak باستخدام JavaScript.
+
+## التشغيل محليًا
+يمكن فتح `index.html` مباشرة في المتصفح أو عبر سيرفر محلي:
+
+```bash
+python3 -m http.server 8000
+```
+
+ثم افتح:
+
+`http://localhost:8000`
