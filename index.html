@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduHub | منصة تعليم ذكية</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <h1>EduHub</h1>
+        <a href="#join" class="btn">ابدأ الآن</a>
+      </nav>
+      <section class="container hero-content">
+        <div>
+          <p class="tag">🎓 منصة تعليم ذكية متكاملة</p>
+          <h2>التعليم + إدارة الأماكن + التحفيز + AI في مكان واحد</h2>
+          <p>
+            EduHub يربط بين الطالب، ولي الأمر، المدرس، وصاحب المكان في نظام واحد
+            سهل وعملي.
+          </p>
+          <div class="cta-row">
+            <a href="#features" class="btn">استكشف المميزات</a>
+            <a href="#demo" class="btn btn-secondary">جرّب الديمو</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>لماذا EduHub؟</h3>
+          <ul>
+            <li>✅ حجز أماكن دروس بسهولة</li>
+            <li>✅ حضور QR وتنبيهات تلقائية</li>
+            <li>✅ تقارير متابعة ذكية</li>
+            <li>✅ نظام نقاط و Streak</li>
+          </ul>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="features" class="container section">
+        <h3>أهم المميزات</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>🏠 نظام الأماكن</h4>
+            <p>عرض الأماكن المتاحة وحجزها للمدرسين مع عمولة تلقائية للمنصة.</p>
+          </article>
+          <article class="card">
+            <h4>📊 المتابعة الذكية</h4>
+            <p>حضور، درجات، سلوك، وتقارير يومية/أسبوعية/شهرية لكل طالب.</p>
+          </article>
+          <article class="card">
+            <h4>🎮 التحفيز</h4>
+            <p>نظام نقاط، تحديات، وسلسلة إنجاز يومية لرفع التفاعل.</p>
+          </article>
+          <article class="card">
+            <h4>🤖 AI Tutor</h4>
+            <p>شرح مبسط للمواد والرد على أسئلة الطالب داخل المنصة.</p>
+          </article>
+          <article class="card">
+            <h4>🔔 إشعارات الحصص</h4>
+            <p>تذكير قبل الحصة بـ 24 ساعة، 12 ساعة، ساعة، و10 دقائق.</p>
+          </article>
+          <article class="card">
+            <h4>💬 شات داخلي</h4>
+            <p>تواصل مباشر آمن بين الطالب والمدرس وولي الأمر.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo">
+        <div class="container">
+          <h3>ديمو سريع: نظام التحفيز</h3>
+          <p>جاوب على سؤال بسيط واحصل على نقاطك.</p>
+          <div class="quiz-card">
+            <p id="question">كم ناتج 5 + 7 ؟</p>
+            <input id="answerInput" type="number" placeholder="اكتب إجابتك" />
+            <button id="submitAnswer" class="btn">إرسال</button>
+            <p id="result"></p>
+            <div class="stats">
+              <span>🏆 النقاط: <strong id="points">0</strong></span>
+              <span>🔥 Streak: <strong id="streak">0</strong></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="container section">
+        <h3>انضم كـ</h3>
+        <div class="grid roles">
+          <article class="card"><h4>طالب</h4><p>تعلّم وتابع تقدمك يوميًا.</p></article>
+          <article class="card"><h4>ولي أمر</h4><p>راقب الحضور والنتائج لحظة بلحظة.</p></article>
+          <article class="card"><h4>مدرس</h4><p>أنشئ الحصص وقيم الطلبة بسهولة.</p></article>
+          <article class="card"><h4>صاحب مكان</h4><p>حوّل المساحة الفاضية لدخل شهري.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 EduHub - نسخة MVP تجريبية</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
